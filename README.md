@@ -4,7 +4,7 @@
 ![image alt](https://github.com/AseelJamaan/Linux-Task/blob/81c53236ba2d5cbe4efc87e2b057ca0de4ef3660/WhatsApp%20Image%202025-01-02%20at%2001.55.15_85fc8af5.jpg)
 
 
-## File Permissions Overview: File permissions in Linux are based on three main entities: owner, group, and others. Permissions include:
+### File Permissions Overview:In Linux, file permissions are based on three main entities: owner, group, and others. Permissions include:
 
 r (read): Allows viewing the file's content.
 
@@ -12,21 +12,25 @@ w (write): Allows modifying the file.
 
 x (execute): Allows executing the file if it is a script or program.
 
-Permissions are represented in three groups:
+Permissions are displayed in a 10-character string:
 
-Owner's permissions (first three characters).
+First character indicates the type:
 
-Group's permissions (next three characters).
+d: Directory
 
-Others' permissions (last three characters).
+-: Regular file
+
+Next three characters are for owner's permissions (read, write, execute).
+
+Next three characters are for group's permissions.
+
+Last three characters are for others' permissions.
 
 For example, rwxrwxr-x means:
 
-Owner: rwx (read, write, execute).
-
-Group: rwx (read, write, execute).
-
-Others: r-x (read and execute).
+Owner: rwx (read, write, execute)
+Group: rwx (read, write, execute)
+Others: r-x (read and execute)
 
 ![image alt](https://github.com/AseelJamaan/Linux-Task/blob/b439c03880ad7ca1b85f50b2af5bb562316166d7/File%20Permission%20Flowchart.png)
 
