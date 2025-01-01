@@ -1,4 +1,20 @@
 ## File Permission Changer Linux Task
+
+##File Permissions Overview: File permissions in Linux are based on three main entities: owner, group, and others. Permissions include:
+
+r (read): Allows viewing the file's content.
+w (write): Allows modifying the file.
+x (execute): Allows executing the file if it is a script or program.
+Permissions are represented in three groups:
+
+Owner's permissions (first three characters).
+Group's permissions (next three characters).
+Others' permissions (last three characters).
+For example, rwxrwxr-x means:
+
+Owner: rwx (read, write, execute).
+Group: rwx (read, write, execute).
+Others: r-x (read and execute).
 ### Flowchart
 The process is as follows:
 
