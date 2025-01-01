@@ -1,6 +1,8 @@
 ## File Permission Changer Linux Task
 
+
 ![image alt](https://github.com/AseelJamaan/Linux-Task/blob/81c53236ba2d5cbe4efc87e2b057ca0de4ef3660/WhatsApp%20Image%202025-01-02%20at%2001.55.15_85fc8af5.jpg)
+
 
 ##File Permissions Overview: File permissions in Linux are based on three main entities: owner, group, and others. Permissions include:
 
@@ -26,6 +28,7 @@ Group: rwx (read, write, execute).
 
 Others: r-x (read and execute).
 
+![image alt](https://github.com/AseelJamaan/Linux-Task/blob/b439c03880ad7ca1b85f50b2af5bb562316166d7/File%20Permission%20Flowchart.png)
 
 ### Flowchart
 The process is as follows:
@@ -46,6 +49,7 @@ Execute: The chmod 775 filename command is executed to change the file permissio
 
 End: The process finishes.
 
+
 ### Python Code Explanation
 Input: The user enters a permission string and the filename.
 
@@ -54,6 +58,7 @@ Validation: The script checks if the permission string contains only valid chara
 Convert to Numeric Format: The valid permission string is converted to a numeric value (e.g., rwxrwxr-x → 775).
 
 Change Permissions: The script applies the new permissions to the file using the os.chmod() function.
+
 
 ### How to Use
 Clone or download this repository.
