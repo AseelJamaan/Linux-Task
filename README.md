@@ -1,9 +1,13 @@
 ## File Permission Changer Linux Task
 ### Flowchart
 The process is as follows:
+
 Input: The user provides a permission string .
+
 Process: The permission string is split into three parts: Owner, Group, and Others.
+
 Decision: The script checks if the permission string is valid.
+
 Yes: If valid, it proceeds to the next step.
 No: If invalid, an error message is displayed.
 Convert: If the permission string is valid, it is converted into a numeric format (e.g., rwxrwxr-x → 775).
