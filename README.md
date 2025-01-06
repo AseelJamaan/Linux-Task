@@ -88,8 +88,8 @@ w = 2 (write).
 
 x = 1 (execute).
 
-- = 0 (no permission).
-- 
+_ = 0 (no permission).
+
 For example:
 
 Owner (rwx) = 4 + 2 + 1 = 7.
