@@ -4,7 +4,8 @@
 ![image alt](https://github.com/AseelJamaan/Linux-Task/blob/81c53236ba2d5cbe4efc87e2b057ca0de4ef3660/WhatsApp%20Image%202025-01-02%20at%2001.55.15_85fc8af5.jpg)
 
 
-### File Permissions Overview:In Linux, file permissions are based on three main entities: owner, group, and others. Permissions include:
+### File Permissions Overview:
+In Linux, file permissions are based on three main entities: owner, group, and others. Permissions include:
 
 r (read): Allows viewing the file's content.
 
